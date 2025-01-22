@@ -8,10 +8,10 @@ const Login = () => {
           {/* Left Side */}
           <div className="hidden md:flex flex-col justify-center items-center bg-gray-50 p-8">
             <h2 className="text-3xl font-bold text-gray-800">
-              Turn Your Ideas into Reality
+            Effortless KYC Simplified
             </h2>
             <p className="mt-4 text-gray-600 text-center">
-              Start for free and get attractive offers from the community.
+            Join Us and Complete Your KYC with Ease and Security
             </p>
             <div className="mt-6">
               <img
@@ -82,10 +82,10 @@ const Login = () => {
               </button>
             </form>
   
-            {/* <div className="mt-6 text-center">
-              <button className="w-full bg-gray-100 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-200">
+            <div className="mt-6 text-center">
+              {/* <button className="w-full bg-gray-100 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Register
-              </button>
+              </button> */}
               <p className="my-4 text-gray-600">or</p>
               <button className="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 flex items-center justify-center">
                 <img
@@ -95,7 +95,7 @@ const Login = () => {
                 />
                 Sign in with Google
               </button>
-            </div> */}
+            </div>
   
             <p className="mt-6 text-center text-gray-600">
               Don’t have an account?{" "}
