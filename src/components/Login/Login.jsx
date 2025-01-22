@@ -8,10 +8,10 @@ const Login = () => {
           {/* Left Side */}
           <div className="hidden md:flex flex-col justify-center items-center bg-gray-50 p-8">
             <h2 className="text-3xl font-bold text-gray-800">
-              Turn Your Ideas into Reality
+            Effortless KYC Simplified
             </h2>
             <p className="mt-4 text-gray-600 text-center">
-              Start for free and get attractive offers from the community.
+            Join Us and Complete Your KYC with Ease and Security
             </p>
             <div className="mt-6">
               <img
@@ -25,7 +25,7 @@ const Login = () => {
           {/* Right Side */}
           <div className="p-8 flex flex-col justify-center">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-              Interactive Brand
+              Login to OneKyc
             </h2>
             <form>
               <div className="mb-4">
@@ -39,7 +39,7 @@ const Login = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="johndoe@gmail.com"
+                  placeholder="name@gmail.com"
                 />
               </div>
   
@@ -64,14 +64,14 @@ const Login = () => {
                     type="checkbox"
                     className="text-blue-500 focus:ring-blue-500"
                   />
-                  <span className="ml-2 text-gray-600">Remember me for 30 days</span>
+                  <span className="ml-2 text-gray-600">Show Password</span>
                 </label>
-                <a
+                {/* <a
                   href="#"
                   className="text-blue-500 hover:underline text-sm"
                 >
                   Forgot Password?
-                </a>
+                </a> */}
               </div>
   
               <button
@@ -83,9 +83,9 @@ const Login = () => {
             </form>
   
             <div className="mt-6 text-center">
-              <button className="w-full bg-gray-100 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-200">
+              {/* <button className="w-full bg-gray-100 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Register
-              </button>
+              </button> */}
               <p className="my-4 text-gray-600">or</p>
               <button className="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 flex items-center justify-center">
                 <img

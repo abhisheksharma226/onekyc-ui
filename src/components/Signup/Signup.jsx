@@ -10,10 +10,10 @@ const SignUp = () => {
         {/* Left Side */}
         <div className="hidden md:flex flex-col justify-center items-center bg-gray-50 p-8">
           <h2 className="text-3xl font-bold text-gray-800">
-            Turn Your Ideas into Reality
+          Effortless KYC Simplified
           </h2>
           <p className="mt-4 text-gray-600 text-center">
-            Join us today and start your journey with amazing opportunities.
+          Join Us and Complete Your KYC with Ease and Security
           </p>
           <div className="mt-6">
             <img
@@ -41,7 +41,7 @@ const SignUp = () => {
                 type="text"
                 id="fullName"
                 className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="John Doe"
+                placeholder="name"
               />
             </div>
 
@@ -56,7 +56,7 @@ const SignUp = () => {
                 type="email"
                 id="email"
                 className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="johndoe@gmail.com"
+                placeholder="name@gmail.com"
               />
             </div>
 
