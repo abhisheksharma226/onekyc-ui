@@ -37,7 +37,7 @@ const Services = () => {
     <div>
       <div className="container py-20">
         {/* heading title */}
-        <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
+        <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8" id="Subscription">
           <motion.h1
             variants={SlideUp(0.2)}
             initial="initial"

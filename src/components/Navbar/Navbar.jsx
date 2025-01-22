@@ -6,23 +6,23 @@ import Logo from "../Logo/Logo";
 const NavLinks = [
   {
     id: 1,
-    title: "Subsription",
-    link: "#",
+    title: "Subscription",
+    link: "#Subscription",
   },
   {
     id: 2,
     title: "About us",
-    link: "#",
+    link: "#about",
   },
   {
     id: 3,
     title: "Services",
-    link: "#",
+    link: "#services",
   },
   {
     id: 4,
     title: "Developers",
-    link: "#",
+    link: "#Developers",
   },
 ];
 const Navbar = () => {
