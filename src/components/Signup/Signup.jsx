@@ -93,7 +93,7 @@ const SignUp = () => {
 
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600"
+              className="w-full bg-black text-white py-2 px-4 rounded-lg hover:bg-black"
             >
               Sign Up
             </button>
@@ -101,9 +101,9 @@ const SignUp = () => {
 
           <div className="mt-6 text-center">
             <p className="text-gray-600">or</p>
-            <button className="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 flex items-center justify-center mt-4">
+            <button className="w-full bg-black text-white py-2 px-4 rounded-lg hover:bg-black flex items-center justify-center mt-4">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png"
                 alt="Google"
                 className="h-5 w-5 mr-2"
               />
