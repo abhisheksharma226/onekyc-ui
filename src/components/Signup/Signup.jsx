@@ -17,7 +17,7 @@ const SignUp = () => {
           </p>
           <div className="mt-6">
             <img
-              src="https://via.placeholder.com/300x200"
+              src="/src/assets/signup.jpg"
               alt="Decor"
               className="rounded-lg"
             />

@@ -15,7 +15,7 @@ const Login = () => {
             </p>
             <div className="mt-6">
               <img
-                src="https://via.placeholder.com/300x200"
+                src="/src/assets/login.jpg"
                 alt="Decor"
                 className="rounded-lg"
               />
