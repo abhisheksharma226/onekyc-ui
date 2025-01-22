@@ -5,22 +5,22 @@ import { motion } from "framer-motion";
 const NavLinks = [
   {
     id: 1,
-    title: "About",
+    title: "Subsription",
     link: "#",
   },
   {
     id: 2,
-    title: "Services",
+    title: "About us",
     link: "#",
   },
   {
     id: 3,
-    title: "Project",
+    title: "Services",
     link: "#",
   },
   {
     id: 4,
-    title: "Contact",
+    title: "Developers",
     link: "#",
   },
 ];

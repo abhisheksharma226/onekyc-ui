@@ -46,7 +46,7 @@ const Services = () => {
             whileInView={"animate"}
             className="text-3xl font-bold font-serif"
           >
-            What we provide
+           Our Subscription
           </motion.h1>
           <motion.p
             variants={SlideUp(0.4)}
@@ -54,8 +54,7 @@ const Services = () => {
             whileInView={"animate"}
             className="text-gray-500 text-sm"
           >
-            Bring your dream home to life with one-on-one design help & hand
-            picked products
+            Choose your OneKYC plan secure simplify and save effort
           </motion.p>
         </div>
         {/* card section */}
