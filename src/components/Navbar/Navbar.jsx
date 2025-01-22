@@ -1,7 +1,7 @@
 import React from "react";
-import k from "../../assets/k.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Logo from "../Logo/Logo";
 
 const NavLinks = [
   {
@@ -35,12 +35,7 @@ const Navbar = () => {
         className="container py-6 flex justify-between items-center"
       >
         {/* Logo section */}
-        <div className="flex items-center">
-          <p className="text-2xl font-bold">ONE</p>
-          <img src={k} alt="k" className="w-10" />
-          <p className="text-2xl font-bold">YC</p>
-          
-        </div>
+       <Logo />
         {/* Link section */}
         <div className="hidden md:block !space-x-12">
           {NavLinks.map((link) => {

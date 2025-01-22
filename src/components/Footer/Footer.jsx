@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
 import { FaPhone } from "react-icons/fa6";
 import { LuMessageSquare } from "react-icons/lu";
 import { motion } from "framer-motion";
 import { SlideLeft } from "../../animation/animate";
+import Logo from "../Logo/Logo"
 
 const Footer = () => {
   return (
@@ -16,10 +16,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company info section */}
           <div className="space-y-4 font-semibold">
-            <div className="flex items-center space-x-3">
-              <img src={Logo} alt="OneKYC Logo" className="w-6" />
-              <p className="text-xl font-semibold">OneKYC</p>
-            </div>
+             <Logo />
             <p>Gunupur, Odisha , India</p>
             <p>@ 2024 OneKYC. All rights reserved</p>
           </div>

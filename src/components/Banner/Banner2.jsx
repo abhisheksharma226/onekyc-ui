@@ -1,5 +1,5 @@
 import React from "react";
-import Banner1 from "../../assets/banner2.png";
+import Banner1 from "../../assets/banner1.png";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
 
@@ -64,7 +64,7 @@ const Banner2 = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               src={Banner1}
               alt=""
-              className="w-[95%] md:w-full mx-auto"
+              className="w-[85%] md:w-[85%] lg:w-[65%] xl:w-[60%] mx-auto"
             />
           </div>
         </div>

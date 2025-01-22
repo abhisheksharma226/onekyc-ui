@@ -2,6 +2,7 @@ import React from "react";
 import HeroPng from "../../assets/hero.png";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -27,6 +28,7 @@ const Hero = () => {
               OneKYC simplifies KYC with secure centralized verification saving time ensuring privacy and trust
             </motion.p>
             <div className="space-x-4">
+              <Link to="/login">
               <motion.button
                 variants={SlideUp(0.8)}
                 initial="initial"
@@ -35,6 +37,7 @@ const Hero = () => {
               >
                 Know more
               </motion.button>
+              </Link>
               {/* <motion.button
                 variants={SlideUp(1.1)}
                 initial="initial"
