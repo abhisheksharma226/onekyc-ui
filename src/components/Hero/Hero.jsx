@@ -2,6 +2,7 @@ import React from "react";
 import HeroPng from "../../assets/hero.png";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
               animate="animate"
               className="text-4xl font-bold font-serif"
             >
-              SKETCH LUXURY INTERIOR DESIGN
+              Connecting Trust with Technology
             </motion.h1>
             <motion.p
               variants={SlideUp(0.5)}
@@ -24,26 +25,27 @@ const Hero = () => {
               animate="animate"
               className="text-sm md:text-base text-gray-500 leading-7"
             >
-              Bring your dream to life with one-on-one design help & hand picked
-              products tailored to your style, space and budget.
+              OneKYC simplifies KYC with secure centralized verification saving time ensuring privacy and trust
             </motion.p>
             <div className="space-x-4">
+              <Link to="/login">
               <motion.button
                 variants={SlideUp(0.8)}
                 initial="initial"
                 animate="animate"
                 className="primary-btn uppercase bg-black text-white shadow-[5px_5px_0px_0px_#6c6c6c]"
               >
-                Get started
+                Know more
               </motion.button>
-              <motion.button
+              </Link>
+              {/* <motion.button
                 variants={SlideUp(1.1)}
                 initial="initial"
                 animate="animate"
                 className="primary-btn uppercase"
               >
                 Contact Us
-              </motion.button>
+              </motion.button> */}
             </div>
           </div>
           {/* Images section */}
@@ -54,7 +56,8 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               src={HeroPng}
               alt=""
-              className="w-[80%] md:w-[700px] object-cover "
+              className="w-[60%] md:w-[500px] object-cover"
+
             />
           </div>
         </div>

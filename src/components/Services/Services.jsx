@@ -1,5 +1,5 @@
 import React from "react";
-import { FaVectorSquare } from "react-icons/fa";
+import { FaUserShield} from "react-icons/fa";
 import { FaPenToSquare } from "react-icons/fa6";
 import { BiSolidDollarCircle } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -8,31 +8,29 @@ import { SlideUp } from "../../animation/animate";
 const ServiceCard = [
   {
     id: 1,
-    title: "Luxury Facilities",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur",
-    icon: <FaVectorSquare />,
-    link: "#",
+    title: "OneKYC Basic",
+    content: "₹299/year",
+    description: "Secure KYC management ideal for individuals with minimal needs.",
+    icon: <FaUserShield />,
     delay: 0.2,
-  },
-  {
+},
+{
     id: 2,
-    title: "Quality Products",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur",
+    title: "OneKYC Premium",
+    content: "₹599/year",
+    description: "Enhanced KYC features with additional security and priority support.",
     icon: <FaPenToSquare />,
-    link: "#",
     delay: 0.4,
-  },
-  {
+},
+{
     id: 3,
-    title: "Affordable Price",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    title: "OneKYC Business",
+    content: "₹999/year",
+    description: "Comprehensive KYC management for businesses with multiple user access and advanced features.",
     icon: <BiSolidDollarCircle />,
-    link: "#",
     delay: 0.6,
-  },
+}
+
 ];
 const Services = () => {
   return (
@@ -46,7 +44,7 @@ const Services = () => {
             whileInView={"animate"}
             className="text-3xl font-bold font-serif"
           >
-            What we provide
+           Our Subscription
           </motion.h1>
           <motion.p
             variants={SlideUp(0.4)}
@@ -54,36 +52,36 @@ const Services = () => {
             whileInView={"animate"}
             className="text-gray-500 text-sm"
           >
-            Bring your dream home to life with one-on-one design help & hand
-            picked products
+            Choose your OneKYC plan to simplify and save effort
           </motion.p>
         </div>
         {/* card section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {ServiceCard.map((card) => {
-            return (
-              <motion.div
-                variants={SlideUp(card.delay)}
-                initial="initial"
-                whileInView={"animate"}
-                key={card.id}
-                className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
-              >
-                <span className="inline-block text-xl border-[1px] border-black rounded-full p-3">
-                  {card.icon}
-                </span>
-                <p className="text-2xl font-bold font-serif">{card.title}</p>
-                <p className="text-gray-400 text-xs">{card.description}</p>
-                <a
-                  href={card.link}
-                  className="inline-block border-b border-black"
-                >
-                  Learn More
-                </a>
-              </motion.div>
-            );
-          })}
-        </div>
+  {ServiceCard.map((card) => {
+    return (
+      <motion.div
+        variants={SlideUp(card.delay)}
+        initial="initial"
+        whileInView={"animate"}
+        key={card.id}
+        className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
+      >
+        <span className="inline-flex justify-center items-center text-4xl border-[1px] border-black rounded-full p-4">
+          {card.icon}
+        </span>
+        <p className="text-2xl font-bold font-serif">{card.content}</p>
+        <p className="text-2xl font-bold font-serif">{card.title}</p>
+        <p className="text-gray-400 text-xs">{card.description}</p>
+        <a
+          href={card.link}
+          className="inline-block border-b border-black"
+        >
+        </a>
+      </motion.div>
+    );
+  })}
+</div>
+
       </div>
     </div>
   );

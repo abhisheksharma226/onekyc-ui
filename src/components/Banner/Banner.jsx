@@ -27,7 +27,7 @@ const Banner = () => {
               whileInView="animate"
               className="text-4xl font-bold font-serif"
             >
-              We Believe that a team makes any project better
+              About us
             </motion.h1>
             <motion.p
               variants={SlideUp(0.4)}
@@ -35,18 +35,17 @@ const Banner = () => {
               whileInView="animate"
               className="text-gray-500 text-sm leading-7"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-              earum accusantium tempore nam aliquid{" "}
+              OneKYC simplifies the KYC process by securely storing verified customer records, ensuring seamless access for authorized financial institutions while promoting efficiency and compliance.
             </motion.p>
             <div>
-              <motion.button
+              {/* <motion.button
                 variants={SlideUp(0.6)}
                 initial="initial"
                 whileInView="animate"
                 className="primary-btn bg-black text-white shadow-[5px_5px_0px_0px_#6c6c6c]"
               >
                 Discover Now
-              </motion.button>
+              </motion.button> */}
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
 
-const Newsletter = () => {
+const OneKYCNewsletter = () => {
   return (
     <div className="max-w-[500px] mx-auto space-y-5 py-14">
       <motion.h1
@@ -11,7 +11,7 @@ const Newsletter = () => {
         whileInView="animate"
         className="text-3xl font-bold font-serif text-center"
       >
-        Subsribe to our Newsletter
+        Subscribe to OneKYC Updates
       </motion.h1>
       <motion.p
         variants={SlideUp(0.4)}
@@ -19,22 +19,22 @@ const Newsletter = () => {
         whileInView="animate"
         className="max-w-[300px] mx-auto text-gray-500 text-sm text-center"
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed libero
-        doloremque ab eum!
+        Stay up-to-date with the latest features, improvements, and security updates
+        from OneKYC. 
       </motion.p>
       {/* form here */}
       <motion.div
         variants={SlideUp(0.6)}
         initial="initial"
         whileInView="animate"
-        className="!mt-10 flex justify-center"
+        className="!mt-10 flex justify-center space-x-4"
       >
         <input
-          type="text"
+          type="email"
           placeholder="Enter your email"
-          className="px-4 py-4 ring-1 ring-gray-300"
+          className="px-4 py-4 ring-1 ring-gray-300 rounded-md w-full max-w-[350px]"
         />
-        <button className="bg-black text-white px-6 py-4 uppercase">
+        <button className="bg-black text-white px-6 py-4 uppercase rounded-md hover:bg-gray-800 transition duration-300">
           Subscribe
         </button>
       </motion.div>
@@ -42,4 +42,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default OneKYCNewsletter;

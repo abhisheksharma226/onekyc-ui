@@ -5,26 +5,26 @@ import { SlideLeft, SlideUp } from "../../animation/animate";
 const TestimonialData = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Designer",
-    img: "https://i.pravatar.cc/300?img=1",
-    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Abhishek Sharma",
+    designation: "Team Lead",
+    img: "/src/assets/developers/abhi.jpg",
+    text: "Leads the team, ensures milestones are met,integrates frontend and backend development.",
     delay: 0.2,
   },
   {
     id: 2,
-    name: "Alex",
-    designation: "Developer",
-    img: "https://i.pravatar.cc/300?img=2",
-    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Ayush Singh",
+    designation: "Full Stack Developer",
+    img: "/src/assets/developers/ayush.jpg",
+    text: "Designs and develops user-friendly interfaces for seamless user experiences.",
     delay: 0.4,
   },
   {
     id: 3,
-    name: "George",
-    designation: "Manager",
-    img: "https://i.pravatar.cc/300?img=3",
-    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Sonali Panigrahi",
+    designation: "Frontend Developer",
+    img: "/src/assets/developers/sonali.jpg",
+    text: "Designs and developed interactive user interfaces, ensuring an engaging and responsive user experience.",
     delay: 0.6,
   },
 ];
@@ -39,7 +39,7 @@ const Testimonial = () => {
           whileInView="animate"
           className="text-4xl font-bold font-serif"
         >
-          Words from our coustomers
+         Onekyc Developers
         </motion.h1>
         <motion.p
           variants={SlideUp(0.4)}
@@ -47,8 +47,7 @@ const Testimonial = () => {
           whileInView="animate"
           className="text-gray-500 text-sm max-w-[350px] mx-auto"
         >
-          Bring your dream home to life with one-on-one design help & hand
-          picked products
+          A skilled team of developers dedicated to building secure, efficient, and innovative solutions for seamless KYC management.
         </motion.p>
       </div>
       {/* tesitomonial cards */}

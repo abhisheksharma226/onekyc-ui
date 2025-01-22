@@ -15,7 +15,7 @@ const Home = () => {
       <main className="overflow-x-hidden">
         <Navbar />
         <Hero />
-        <Brands />
+        {/* <Brands /> */}
         <Services />
         <Banner />
         <Banner2 />
