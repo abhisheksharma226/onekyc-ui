@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import k from "../../assets/k.png";
 import { motion } from "framer-motion";
 
 const NavLinks = [
@@ -34,9 +34,11 @@ const Navbar = () => {
         className="container py-6 flex justify-between items-center"
       >
         {/* Logo section */}
-        <div className="flex items-center gap-3">
-          <img src={Logo} alt="logo" className="w-10" />
-          <span className="text-2xl font-bold">Interior</span>
+        <div className="flex items-center">
+          <p className="text-2xl font-bold">ONE</p>
+          <img src={k} alt="k" className="w-10" />
+          <p className="text-2xl font-bold">YC</p>
+          
         </div>
         {/* Link section */}
         <div className="hidden md:block !space-x-12">
@@ -53,7 +55,7 @@ const Navbar = () => {
         </div>
         {/* Button section */}
         <div>
-          <button className="primary-btn">Try For Free</button>
+          <button className="primary-btn">Login</button>
         </div>
       </motion.div>
     </>
