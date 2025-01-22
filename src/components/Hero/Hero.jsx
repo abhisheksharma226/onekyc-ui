@@ -53,7 +53,8 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               src={HeroPng}
               alt=""
-              className="w-[80%] md:w-[700px] object-cover "
+              className="w-[60%] md:w-[500px] object-cover"
+
             />
           </div>
         </div>
