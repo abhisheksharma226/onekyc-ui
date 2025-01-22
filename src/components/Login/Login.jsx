@@ -25,7 +25,7 @@ const Login = () => {
           {/* Right Side */}
           <div className="p-8 flex flex-col justify-center">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-              Interactive Brand
+              Login to OneKyc
             </h2>
             <form>
               <div className="mb-4">
@@ -39,7 +39,7 @@ const Login = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="johndoe@gmail.com"
+                  placeholder="name@gmail.com"
                 />
               </div>
   
@@ -64,14 +64,14 @@ const Login = () => {
                     type="checkbox"
                     className="text-blue-500 focus:ring-blue-500"
                   />
-                  <span className="ml-2 text-gray-600">Remember me for 30 days</span>
+                  <span className="ml-2 text-gray-600">Show Password</span>
                 </label>
-                <a
+                {/* <a
                   href="#"
                   className="text-blue-500 hover:underline text-sm"
                 >
                   Forgot Password?
-                </a>
+                </a> */}
               </div>
   
               <button
@@ -82,7 +82,7 @@ const Login = () => {
               </button>
             </form>
   
-            <div className="mt-6 text-center">
+            {/* <div className="mt-6 text-center">
               <button className="w-full bg-gray-100 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-200">
                 Register
               </button>
@@ -95,7 +95,7 @@ const Login = () => {
                 />
                 Sign in with Google
               </button>
-            </div>
+            </div> */}
   
             <p className="mt-6 text-center text-gray-600">
               Don’t have an account?{" "}
