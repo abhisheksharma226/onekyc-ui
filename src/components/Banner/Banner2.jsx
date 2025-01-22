@@ -16,7 +16,7 @@ const Banner2 = () => {
               whileInView="animate"
               className="text-4xl font-bold font-serif"
             >
-              Simple way to make stylish living room
+              Our Services
             </motion.h1>
             <motion.p
               variants={SlideUp(0.4)}
@@ -24,11 +24,9 @@ const Banner2 = () => {
               whileInView="animate"
               className="text-gray-500 text-sm leading-7"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-              earum accusantium tempore nam adipisicing elit. Suscipit earum
-              accusantium tempore nam aliquid{" "}
+             OneKYC offers secure KYC management, streamlined customer verification, real-time document validation, and seamless integration with financial institutions to ensure compliance and enhance operational efficiency.
             </motion.p>
-            <motion.div
+            {/* <motion.div
               variants={SlideUp(0.6)}
               initial="initial"
               whileInView="animate"
@@ -46,7 +44,7 @@ const Banner2 = () => {
                 <p className="text-3xl font-bold font-serif">34</p>
                 <p className="text-gray-500 text-sm">Award Gained</p>
               </div>
-            </motion.div>
+            </motion.div> */}
             <div>
               <motion.button
                 variants={SlideUp(0.6)}

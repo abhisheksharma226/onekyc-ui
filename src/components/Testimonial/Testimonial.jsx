@@ -39,7 +39,7 @@ const Testimonial = () => {
           whileInView="animate"
           className="text-4xl font-bold font-serif"
         >
-          Words from our coustomers
+         Onekyc Developers
         </motion.h1>
         <motion.p
           variants={SlideUp(0.4)}
@@ -47,8 +47,7 @@ const Testimonial = () => {
           whileInView="animate"
           className="text-gray-500 text-sm max-w-[350px] mx-auto"
         >
-          Bring your dream home to life with one-on-one design help & hand
-          picked products
+          A skilled team of developers dedicated to building secure, efficient, and innovative solutions for seamless KYC management.
         </motion.p>
       </div>
       {/* tesitomonial cards */}
