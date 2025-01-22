@@ -30,7 +30,7 @@ const TestimonialData = [
 ];
 const Testimonial = () => {
   return (
-    <div className="py-14">
+    <div className="py-14" id="Developers">
       {/* heading title */}
       <div className="space-y-4 text-center max-w-[550px] mx-auto mb-8">
         <motion.h1

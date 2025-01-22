@@ -5,72 +5,126 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-          <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
+      <div className="flex min-h-screen items-center justify-center bg-gray-100">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-4xl bg-white shadow-lg rounded-lg overflow-hidden">
+        {/* Left Side */}
+        <div className="hidden md:flex flex-col justify-center items-center bg-gray-50 p-8">
+          <h2 className="text-3xl font-bold text-gray-800">
+          Effortless KYC Simplified
+          </h2>
+          <p className="mt-4 text-gray-600 text-center">
+          Join Us and Complete Your KYC with Ease and Security
+          </p>
+          <div className="mt-6">
+            <img
+              src="/src/assets/signup.jpg"
+              alt="Decor"
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+
+        {/* Right Side */}
+        <div className="p-8 flex flex-col justify-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+            Create Your Account
+          </h2>
           <form>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Username
+              <label
+                htmlFor="fullName"
+                className="block text-gray-600 font-medium mb-2"
+              >
+                Full Name
               </label>
               <input
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:shadow-outline"
                 type="text"
-                id="username"
-                placeholder="Username"
+                id="fullName"
+                className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="name"
               />
             </div>
+
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                Email
+              <label
+                htmlFor="email"
+                className="block text-gray-600 font-medium mb-2"
+              >
+                Email Address
               </label>
               <input
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:shadow-outline"
                 type="email"
                 id="email"
-                placeholder="Email"
+                className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="name@gmail.com"
               />
             </div>
+
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
+              <label
+                htmlFor="password"
+                className="block text-gray-600 font-medium mb-2"
+              >
                 Password
               </label>
               <input
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:shadow-outline"
                 type="password"
                 id="password"
-                placeholder="Password"
+                className="w-full px-4 py-2 border rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="••••••••"
               />
             </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="confirmPassword">
-                Confirm Password
+
+
+            <div className="flex items-center justify-between mb-4">
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  className="text-blue-500 focus:ring-blue-500"
+                />
+                <span className="ml-2 text-gray-600">
+                  I agree to the{" "}
+                  <a href="#" className="text-blue-500 hover:underline">
+                    terms and conditions
+                  </a>
+                </span>
               </label>
-              <input
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:shadow-outline"
-                type="password"
-                id="confirmPassword"
-                placeholder="Confirm Password"
-              />
             </div>
-            <div className="flex items-center justify-between">
-              <button
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                type="button"
-              >
-                Sign Up
-              </button>
-            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-black text-white py-2 px-4 rounded-lg hover:bg-black"
+            >
+              Sign Up
+            </button>
           </form>
-          <div className="mt-4 text-center">
-            <Link to="/login" className="text-blue-500 hover:text-blue-700">
-            <p className="text-gray-700">
-              Already have an account? <a href="#" className="text-blue-500 hover:text-blue-700">Log In</a>
-            </p>
-            </Link>
+
+          <div className="mt-6 text-center">
+            <p className="text-gray-600">or</p>
+            <button className="w-full bg-black text-white py-2 px-4 rounded-lg hover:bg-black flex items-center justify-center mt-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png"
+                alt="Google"
+                className="h-5 w-5 mr-2"
+              />
+              Sign Up with Google
+            </button>
           </div>
+
+          <p className="mt-6 text-center text-gray-600">
+            Already have an account?{" "}
+            <Link to={"/login"}>
+            <a
+              href="#"
+              className="text-blue-500 hover:underline"
+              >
+              Log in
+            </a>
+              </Link>
+          </p>
         </div>
       </div>
+    </div>
     </>
   );
 };

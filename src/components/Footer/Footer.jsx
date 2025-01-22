@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-4 font-semibold">
              <Logo />
             <p>Gunupur, Odisha , India</p>
-            <p>@ 2024 OneKYC. All rights reserved</p>
+            <p>@ 2025 OneKYC. All rights reserved</p>
           </div>
           {/* Footer Links */}
           <div className="grid grid-cols-2 gap-3">

@@ -9,7 +9,7 @@ const Banner2 = () => {
       <div className="container py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* text section */}
-          <div className="space-y-5 flex justify-center flex-col xl:max-w-[500px]">
+          <div className="space-y-5 flex justify-center flex-col xl:max-w-[500px]" id="services">
             <motion.h1
               variants={SlideUp(0.2)}
               initial="initial"
