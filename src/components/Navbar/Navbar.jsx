@@ -1,6 +1,7 @@
 import React from "react";
 import k from "../../assets/k.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const NavLinks = [
   {
@@ -55,7 +56,9 @@ const Navbar = () => {
         </div>
         {/* Button section */}
         <div>
+        <Link to="/login">
           <button className="primary-btn">Login</button>
+          </Link>
         </div>
       </motion.div>
     </>
