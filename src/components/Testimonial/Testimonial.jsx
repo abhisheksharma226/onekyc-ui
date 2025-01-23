@@ -13,7 +13,7 @@ const TestimonialData = [
     text: "Leads the team, ensures milestones are met, integrates frontend and backend development.",
     github: "https://github.com/abhisheksharma226",
     linkedin: "https://www.linkedin.com/in/abhisheksharma-731676205/",
-    gmail: "mailto:avisheksharma2004@gmail.com", 
+    gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=abhishek.sharma@example.com", 
     delay: 0.2,
   },
   {
@@ -21,10 +21,10 @@ const TestimonialData = [
     name: "Ayush Singh",
     designation: "Full Stack Developer",
     img: "/src/assets/developers/ayush.jpg",
-    text: "Designs and develops user-friendly interfaces for seamless user experiences.",
+    text: "Developed and integrated scalable web applications connecting frontend and backend seamlessly",
     github: "https://github.com/ayushsingh1859",
     linkedin: "https://www.linkedin.com/in/ayush-singh-373706273/",
-    gmail: "mailto:ayushsingh18777@gmail.com", 
+    gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=ayush.singh@example.com", 
     delay: 0.4,
   },
   {
@@ -32,13 +32,14 @@ const TestimonialData = [
     name: "Sonali Panigrahi",
     designation: "Frontend Developer",
     img: "/src/assets/developers/sonali.jpg",
-    text: "Designs and developed interactive user interfaces, ensuring an engaging and responsive user experience.",
+    text: "Designed and developed interactive user interfaces, ensuring an engaging and responsive user experience.",
     github: "https://github.com/sonalipanigrahi2622",
     linkedin: "https://www.linkedin.com/in/sonali-panigrahi-18113a294/",
-    gmail: "mailto:panigrahisonali278@gmail.com", 
+    gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=sonali.panigrahi@example.com",
     delay: 0.6,
   },
 ];
+
 
 const Testimonial = () => {
   return (
