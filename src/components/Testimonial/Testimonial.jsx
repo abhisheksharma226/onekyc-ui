@@ -60,7 +60,7 @@ const Testimonial = () => {
           whileInView="animate"
           className="text-gray-500 text-sm max-w-[350px] mx-auto"
         >
-          A skilled team of developers dedicated to building secure, efficient, and innovative solutions for seamless KYC management.
+          A Skilled team of developers dedicated to building secure, efficient, and innovative solutions for seamless KYC management.
         </motion.p>
       </div>
       {/* Testimonial cards */}

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroPng from "../../assets/hero.png";
+import kyc from "../../assets/kyc.png";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
 import { Link } from "react-router-dom";
@@ -54,7 +54,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              src={HeroPng}
+              src={kyc}
               alt=""
               className="w-[60%] md:w-[500px] object-cover"
 
